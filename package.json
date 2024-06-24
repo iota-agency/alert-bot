@@ -1,6 +1,6 @@
 {
   "name": "iota-alert-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Telegram Alert Bot for sending formatted messages",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
