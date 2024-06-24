@@ -1,20 +1,21 @@
 {
-  "name": "alert-bot",
+  "name": "iota-alert-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "date-fns": "^3.6.0",
-    "grammy": "^1.25.1"
+  "description": "A Telegram Alert Bot for sending formatted messages",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
-  "devDependencies": {
-    "@types/node": "^20.14.8",
-    "nodemon": "^3.1.4",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.5.2"
-  }
+  "keywords": [
+    "telegram",
+    "bot",
+    "alerts"
+  ],
+  "author": "Usmon Ma'sudjonov",
+  "license": "MIT"
 }

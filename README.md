@@ -15,7 +15,7 @@ A robust and flexible TypeScript library for sending formatted alert messages to
 Install the package using npm:
 
 ```bash
-npm install telegram-alert-bot
+npm install iota-alert-bot
 ```
 
 
@@ -26,7 +26,7 @@ npm install telegram-alert-bot
 Here's a basic example of how to use the TelegramAlertBot:
 
 ```typescript
-import { TelegramAlertBot, AlertLevel } from "telegram-alert-bot";
+import { TelegramAlertBot, AlertLevel } from "iota-alert-bot";
 
 const bot = new TelegramAlertBot.Builder("YOUR_BOT_TOKEN")
   .setConfig({
