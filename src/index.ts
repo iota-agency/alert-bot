@@ -129,8 +129,8 @@ class TelegramAlertBot {
   }
 
   static Builder = class {
-    private token: string;
-    private config?: BotConfig;
+    token: string;
+    config?: BotConfig;
 
     constructor(token: string) {
       this.token = token;
